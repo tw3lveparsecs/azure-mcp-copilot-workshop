@@ -1,0 +1,67 @@
+{
+  "workshopConfig": {
+    "title": "GitHub Copilot with Azure MCP Workshop",
+    "version": "1.0.0",
+    "environment": "Development",
+    "modules": [
+      {
+        "id": 1,
+        "name": "Resource Groups",
+        "description": "Working with Azure resource groups",
+        "estimatedTime": 30
+      },
+      {
+        "id": 2,
+        "name": "Azure Storage",
+        "description": "Exploring storage accounts, containers, blobs and tables",
+        "estimatedTime": 45
+      },
+      {
+        "id": 3,
+        "name": "Azure AI Search",
+        "description": "Working with search services, indexes and queries",
+        "estimatedTime": 45
+      },
+      {
+        "id": 4,
+        "name": "Azure Cosmos DB",
+        "description": "Managing databases, containers and executing queries",
+        "estimatedTime": 60
+      },
+      {
+        "id": 5,
+        "name": "Azure Monitor",
+        "description": "Working with Log Analytics and KQL",
+        "estimatedTime": 45
+      },
+      {
+        "id": 6,
+        "name": "Azure Key Vault",
+        "description": "Managing keys, secrets and access policies",
+        "estimatedTime": 30
+      }
+    ],
+    "prerequisites": [
+      "Visual Studio Code",
+      "GitHub Copilot",
+      "GitHub Copilot Chat",
+      "Node.js 20+",
+      "Azure CLI",
+      "Azure Account"
+    ],
+    "resources": [
+      {
+        "name": "Azure MCP Documentation",
+        "url": "https://github.com/Azure/azure-mcp"
+      },
+      {
+        "name": "GitHub Copilot Documentation",
+        "url": "https://docs.github.com/en/copilot"
+      },
+      {
+        "name": "Azure CLI Documentation",
+        "url": "https://learn.microsoft.com/en-us/cli/azure/"
+      }
+    ]
+  }
+}

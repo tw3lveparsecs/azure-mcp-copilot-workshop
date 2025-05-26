@@ -1,0 +1,77 @@
+[
+  {
+    "id": "prod001",
+    "name": "Surface Laptop 4",
+    "category": "Computers",
+    "description": "Thin and light laptop with exceptional performance",
+    "price": 999.99,
+    "inventory": 45,
+    "features": [
+      "13.5-inch touchscreen",
+      "AMD Ryzen 5",
+      "8GB RAM",
+      "256GB SSD"
+    ],
+    "dateAdded": "2025-01-15"
+  },
+  {
+    "id": "prod002",
+    "name": "Xbox Series X",
+    "category": "Gaming",
+    "description": "Next-generation gaming console with 4K capabilities",
+    "price": 499.99,
+    "inventory": 22,
+    "features": [
+      "4K gaming at 60fps",
+      "1TB SSD",
+      "Xbox Game Pass compatible",
+      "Ray tracing support"
+    ],
+    "dateAdded": "2025-02-10"
+  },
+  {
+    "id": "prod003",
+    "name": "Azure IoT Hub Starter Kit",
+    "category": "IoT",
+    "description": "Complete starter kit for Azure IoT development",
+    "price": 129.99,
+    "inventory": 78,
+    "features": [
+      "Raspberry Pi 4",
+      "Sensors package",
+      "Pre-configured Azure connection",
+      "Sample projects"
+    ],
+    "dateAdded": "2025-03-05"
+  },
+  {
+    "id": "prod004",
+    "name": "Surface Headphones 2",
+    "category": "Accessories",
+    "description": "Premium noise-cancelling headphones with touch controls",
+    "price": 249.99,
+    "inventory": 53,
+    "features": [
+      "Active noise cancellation",
+      "Up to 20 hours battery life",
+      "Touch controls",
+      "Voice assistant compatible"
+    ],
+    "dateAdded": "2025-03-15"
+  },
+  {
+    "id": "prod005",
+    "name": "Microsoft 365 Business Premium",
+    "category": "Software",
+    "description": "Complete productivity suite for businesses",
+    "price": 22.0,
+    "inventory": 999,
+    "features": [
+      "Office desktop applications",
+      "Exchange email hosting",
+      "Teams collaboration",
+      "Advanced security features"
+    ],
+    "dateAdded": "2025-01-01"
+  }
+]

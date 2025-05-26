@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "retries": 3,
+    "logLevel": "info",
+    "timeout": 30
+  },
+  "version": "1.0.0",
+  "environment": "dev",
+  "appName": "AzureMCPWorkshop"
+}

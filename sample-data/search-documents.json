@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hotel-1",
+    "name": "Azure Grand Resort & Spa",
+    "description": "Luxury beachfront resort with panoramic ocean views and world-class amenities. Enjoy our private beach, infinity pools, and award-winning restaurants.",
+    "category": "Resort",
+    "rating": 4.8,
+    "location": {
+      "city": "Miami",
+      "stateProvince": "Florida",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    },
+    "address": "123 Beachfront Avenue, Miami, FL 33139",
+    "features": [
+      "Private beach",
+      "Spa services",
+      "Multiple restaurants",
+      "Infinity pool",
+      "Fitness center",
+      "Conference facilities"
+    ],
+    "pricePerNight": 350.0,
+    "availability": true,
+    "lastRenovationDate": "2023-06-15"
+  },
+  {
+    "id": "hotel-2",
+    "name": "Cloud View Mountain Lodge",
+    "description": "Rustic mountain retreat surrounded by pine forests and breathtaking views. Perfect for nature lovers and outdoor enthusiasts.",
+    "category": "Lodge",
+    "rating": 4.5,
+    "location": {
+      "city": "Aspen",
+      "stateProvince": "Colorado",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 39.1911,
+        "longitude": -106.8175
+      }
+    },
+    "address": "456 Mountain Ridge Road, Aspen, CO 81611",
+    "features": [
+      "Ski-in/ski-out access",
+      "Stone fireplaces",
+      "Hot tubs",
+      "Guided hiking tours",
+      "Gourmet dining"
+    ],
+    "pricePerNight": 275.0,
+    "availability": true,
+    "lastRenovationDate": "2022-11-08"
+  },
+  {
+    "id": "hotel-3",
+    "name": "Cosmos City Center Hotel",
+    "description": "Modern urban hotel in the heart of downtown. Walking distance to major attractions, shopping, and business district.",
+    "category": "Hotel",
+    "rating": 4.2,
+    "location": {
+      "city": "Seattle",
+      "stateProvince": "Washington",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "address": "789 Main Street, Seattle, WA 98101",
+    "features": [
+      "Business center",
+      "Rooftop bar",
+      "Fitness studio",
+      "Electric car charging",
+      "Pet friendly"
+    ],
+    "pricePerNight": 220.0,
+    "availability": true,
+    "lastRenovationDate": "2024-01-20"
+  },
+  {
+    "id": "hotel-4",
+    "name": "Function Point Boutique Inn",
+    "description": "Charming boutique hotel with personalized service in a historic building. Each room uniquely decorated with local artwork.",
+    "category": "Boutique",
+    "rating": 4.7,
+    "location": {
+      "city": "Charleston",
+      "stateProvince": "South Carolina",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 32.7765,
+        "longitude": -79.9311
+      }
+    },
+    "address": "321 Heritage Way, Charleston, SC 29401",
+    "features": [
+      "Complimentary breakfast",
+      "Wine reception",
+      "Garden courtyard",
+      "Concierge service",
+      "Historical tours"
+    ],
+    "pricePerNight": 295.0,
+    "availability": true,
+    "lastRenovationDate": "2023-09-12"
+  },
+  {
+    "id": "hotel-5",
+    "name": "Storage Lake Resort",
+    "description": "Lakeside resort with water activities and family-friendly atmosphere. Perfect for weekend getaways or extended vacations.",
+    "category": "Resort",
+    "rating": 4.3,
+    "location": {
+      "city": "Lake Tahoe",
+      "stateProvince": "Nevada",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 39.0968,
+        "longitude": -120.0324
+      }
+    },
+    "address": "567 Lakeshore Drive, Incline Village, NV 89451",
+    "features": [
+      "Private beach",
+      "Water sports equipment",
+      "Kids club",
+      "Lakeside dining",
+      "Hiking trails"
+    ],
+    "pricePerNight": 310.0,
+    "availability": true,
+    "lastRenovationDate": "2022-05-30"
+  }
+]
