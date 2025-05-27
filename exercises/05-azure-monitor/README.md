@@ -28,11 +28,11 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure Mo
    Show me details about the Log Analytics workspace [your-workspace-name]
    ```
 
-### Exercise 5.2: Creating a Log Analytics Workspace with Azure CLI
+### Exercise 5.2: Creating a Log Analytics Workspace with Azure MCP
 
 1. Ask GitHub Copilot to help you create a Log Analytics workspace:
    ```
-   Help me create a new Log Analytics workspace named 'log-copilot-demo' in East US region in the resource group 'rg-copilot-demo'
+   Help me create a new Log Analytics workspace named 'log-copilot-demo' in Australia East region in the resource group 'rg-mcp-workshop'
    ```
 2. Review and execute the command that Copilot suggests
 3. Verify the workspace was created by asking:
@@ -64,24 +64,23 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure Mo
    Write a KQL query to count events by computer name in the Heartbeat table for the last 24 hours
    ```
 
-### Exercise 5.5: Analyzing Logs with KQL
+### Exercise 5.5: Analysing Logs with KQL
 
 1. Ask Copilot to help you analyze logs:
    ```
    How can I use KQL to find errors in my logs?
    ```
-2. Based on Copilot's guidance, create and execute a query to find errors
-3. Learn about visualizing data:
+2. Learn about visualising data:
    ```
-   How can I visualize time-series data using KQL?
+   How can I visualise time-series data using KQL?
    ```
 
 ## Challenge Exercise
 
 Create a script that:
 
-1. Connects to a Log Analytics workspace
-2. Runs multiple KQL queries to analyze different aspects of your environment
+1. Create Azure resources that connects to a Log Analytics workspace
+2. Runs multiple KQL queries to analyse different aspects of your environment
 3. Saves the results to JSON files for further analysis
 
 Ask GitHub Copilot to help you create this script.
@@ -90,7 +89,7 @@ Ask GitHub Copilot to help you create this script.
 
 1. How does Azure MCP help with exploring Log Analytics workspaces compared to using Azure Portal?
 2. What are the basic components of a KQL query?
-3. How can you optimize KQL queries for better performance?
+3. How can you optimise KQL queries for better performance?
 
 ## Next Steps
 

@@ -28,11 +28,11 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure Co
    Show me details about the Cosmos DB account [your-account-name]
    ```
 
-### Exercise 4.2: Creating a Cosmos DB Account with Azure CLI
+### Exercise 4.2: Creating a Cosmos DB Account with Azure MCP
 
 1. Ask GitHub Copilot to help you create a Cosmos DB account:
    ```
-   Help me create a new Azure Cosmos DB account named 'cosmos-copilot-demo' in East US region in the resource group 'rg-copilot-demo' with the SQL API
+   Help me create a new Azure Cosmos DB account named 'cosmos-copilot-demo' in Australia East region in the resource group 'rg-mcp-workshop' with the SQL API
    ```
 2. Review and execute the command that Copilot suggests
 3. Verify the account was created by asking:
@@ -103,9 +103,9 @@ Ask GitHub Copilot to help you create this script.
 
 ## Knowledge Check
 
-1. How does Azure MCP help with exploring Cosmos DB compared to using Azure Portal?
-2. What are the key differences between containers and items in Cosmos DB?
-3. How can you optimize SQL queries in Cosmos DB?
+1. How does Azure MCP simplify Cosmos DB management by allowing natural language interactions with GitHub Copilot instead of requiring knowledge of Azure CLI syntax?
+2. Which Azure MCP commands are specifically designed for Cosmos DB operations, and how do they enable seamless database, container, and item management through conversational prompts?
+3. How does MCP improve security in Cosmos DB deployments?
 
 ## Next Steps
 

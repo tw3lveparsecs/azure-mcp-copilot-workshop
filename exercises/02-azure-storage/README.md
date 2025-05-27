@@ -28,16 +28,16 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure St
    Show me details about storage account [your-account-name]
    ```
 
-### Exercise 2.2: Creating a Storage Account with Azure CLI
+### Exercise 2.2: Creating a Storage Account with Azure MCP
 
 1. Ask GitHub Copilot to help you create a storage account:
    ```
-   Help me create a new storage account named 'stcopilotdemo[unique-suffix]' in East US region, in the resource group 'rg-copilot-demo'
+   Help me create a new storage account named 'stcopilotdemo[unique-suffix]' in Australia East region, in the resource group 'rg-mcp-workshop'
    ```
 2. Review and execute the command that Copilot suggests
 3. Verify the storage account was created by asking:
    ```
-   List all storage accounts in the rg-copilot-demo resource group
+   List all storage accounts in the rg-mcp-workshop resource group
    ```
 
 ### Exercise 2.3: Working with Blob Containers
@@ -57,18 +57,13 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure St
 
 ### Exercise 2.4: Managing Blobs
 
-1. Ask Copilot to upload a sample file (create a small text file first):
+1. List blobs in the container:
    ```
-   How can I upload a local file to the 'copilot-demo' container in my storage account?
+   List all blobs in the container data for storage account [your-account-name]
    ```
-2. Use the suggested command to upload your file
-3. List blobs in the container:
+2. Download the uploaded blob:
    ```
-   List all blobs in the 'copilot-demo' container
-   ```
-4. Download the uploaded blob:
-   ```
-   Download the blob I just uploaded to a new local file
+   Download the blobs to a local file
    ```
 
 ### Exercise 2.5: Working with Azure Tables
@@ -99,9 +94,9 @@ Ask GitHub Copilot to help you create this script.
 
 ## Knowledge Check
 
-1. How does Azure MCP help with exploring storage account properties compared to using Azure Portal?
-2. What are the key differences between blob storage and table storage?
-3. How can you use Copilot to generate complex storage account queries?
+1. How does Azure MCP help streamline storage account operations compared to traditional Azure CLI commands?
+2. What are the key advantages of using Azure MCP for uploading large files to blob storage containers?
+3. What are the limitations when using Azure MCP to manage Table Storage compared to Queue Storage?
 
 ## Next Steps
 

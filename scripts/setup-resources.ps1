@@ -175,9 +175,6 @@ az storage table create `
   --account-key $storageAccountKey `
   --output json
 
-# Note: We would insert entities into the table here, but Azure CLI doesn't support this directly
-# In a real workshop, we would use Azure Storage Table SDK or other methods to populate the table
-
 Write-Host "Storage account and resources created successfully!" -ForegroundColor Green
 Write-Host ""
 

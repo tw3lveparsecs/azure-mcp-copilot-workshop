@@ -1,10 +1,12 @@
 # GitHub Copilot with Azure MCP Workshop
 
-This workshop provides hands-on experience with GitHub Copilot and the Azure Model Context Protocol (MCP) Server to interact with various Azure resources. Participants will learn how to use natural language queries, utilize GitHub Copilot's AI-powered capabilities, and leverage the Azure MCP Server to effectively manage Azure resources.
+This workshop provides hands-on experience with GitHub Copilot and the Azure Model Context Protocol (MCP) Server to interact with various Azure resources. Participants will learn how to use natural language queries, utilise GitHub Copilot's AI-powered capabilities, and leverage the Azure MCP Server to effectively manage Azure resources.
 
 ## What is Azure MCP?
 
 Azure MCP (Model Context Protocol) Server implements the [MCP specification](https://modelcontextprotocol.io) to create a seamless connection between AI agents (like GitHub Copilot) and key Azure services including Azure Storage, Cosmos DB, Azure AI Search, Azure Monitor, Key Vault, and more.
+
+Architecturally, it allows GitHub Copilot to process natural language queries and interact with Azure resources without needing to remember complex CLI commands or navigate through the Azure Portal. See the [architecture diagram](docs/architecture-diagram.md) for a visual representation of how these components interact.
 
 ## Workshop Structure
 

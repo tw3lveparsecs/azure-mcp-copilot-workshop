@@ -28,11 +28,11 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure Ke
    Show me details about the Key Vault [your-key-vault-name]
    ```
 
-### Exercise 6.2: Creating a Key Vault with Azure CLI
+### Exercise 6.2: Creating a Key Vault with Azure MCP
 
 1. Ask GitHub Copilot to help you create a Key Vault:
    ```
-   Help me create a new Azure Key Vault named 'kv-copilot-demo' in East US region in the resource group 'rg-copilot-demo'
+   Help me create a new Azure Key Vault named 'kv-copilot-demo' in Australia East region in the resource group 'rg-mcp-workshop'
    ```
 2. Review and execute the command that Copilot suggests
 3. Verify the Key Vault was created by asking:
@@ -70,18 +70,6 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure Ke
    Get the secret 'DbConnectionString' from the Key Vault [your-key-vault-name]
    ```
 
-### Exercise 6.5: Key Vault Access Policies
-
-1. Ask Copilot to explain Key Vault access policies:
-   ```
-   Explain Azure Key Vault access policies
-   ```
-2. Ask how to grant yourself permissions:
-   ```
-   How can I grant myself full permissions to my Key Vault [your-key-vault-name]?
-   ```
-3. Execute the suggested command to update access policies
-
 ## Challenge Exercise
 
 Create a script that:
@@ -89,8 +77,7 @@ Create a script that:
 1. Creates a new Key Vault
 2. Adds multiple secrets from a configuration file
 3. Creates a key for encryption
-4. Sets up appropriate access policies
-5. Outputs the vault information to a secure file
+4. Outputs the vault information to a secure file
 
 Ask GitHub Copilot to help you create this script.
 

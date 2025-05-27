@@ -7,7 +7,7 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure AI
 - List and explore Azure AI Search services
 - Examine search index schema and configuration
 - Perform search queries against indexes
-- Understand how to optimize search for different scenarios
+- Understand how to optimise search for different scenarios
 
 ## Prerequisites
 
@@ -28,11 +28,11 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure AI
    Show me details about the search service [your-search-service-name]
    ```
 
-### Exercise 3.2: Creating a Search Service with Azure CLI
+### Exercise 3.2: Creating a Search Service with Azure MCP
 
 1. Ask GitHub Copilot to help you create a search service:
    ```
-   Help me create a new Azure AI Search service named 'search-copilot-demo' in East US region in the resource group 'rg-copilot-demo' with the free tier (or basic if free isn't available)
+   Help me create a new Azure AI Search service named 'search-copilot-demo' in Australia East region in the resource group 'rg-mcp-workshop' with the free tier (or basic if free isn't available)
    ```
 2. Review and execute the command that Copilot suggests
 3. Verify the service was created by asking:
@@ -76,9 +76,9 @@ This module focuses on using GitHub Copilot with Azure MCP to work with Azure AI
    ```
    Explain what makes a good search index schema design for a product catalog
    ```
-2. Learn about search analyzers:
+2. Learn about search analysers:
    ```
-   What are search analyzers in Azure AI Search and how do I choose the right one?
+   What are search analysers in Azure AI Search and how do I choose the right one?
    ```
 
 ## Challenge Exercise
@@ -95,7 +95,7 @@ Ask GitHub Copilot to help you design this solution.
 
 1. How does Azure MCP help with exploring search service properties compared to using Azure Portal?
 2. What are the key components of an Azure AI Search index?
-3. How can you optimize search results for relevance?
+3. How can you optimise search results for relevance?
 
 ## Next Steps
 
