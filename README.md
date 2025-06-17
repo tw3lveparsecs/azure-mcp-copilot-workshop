@@ -1,6 +1,6 @@
 # GitHub Copilot with Azure MCP Workshop
 
-This workshop provides hands-on experience with GitHub Copilot and the Azure Model Context Protocol (MCP) Server to interact with various Azure resources. Participants will learn how to use natural language queries, utilise GitHub Copilot's AI-powered capabilities, and leverage the Azure MCP Server to effectively manage Azure resources.
+As part of the GitHub Copilot Global Bootcamp presented on June 17th 2025, (presentation can be found [here](docs/turn-github-copilot-into-your-ultimate-azure-sidekick.pdf)), this workshop provides hands-on experience with GitHub Copilot and the Azure Model Context Protocol (MCP) Server to interact with various Azure resources. Participants will learn how to use natural language queries, utilise GitHub Copilot's AI-powered capabilities, and leverage the Azure MCP Server to effectively manage Azure resources.
 
 ## What is Azure MCP?
 
