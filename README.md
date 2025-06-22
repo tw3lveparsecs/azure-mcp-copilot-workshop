@@ -30,6 +30,77 @@ Before starting the workshop, ensure you have:
 - An active Azure account with appropriate permissions
 - Azure MCP Server installed (Instructions included in the workshop)
 
+## Dev Container Setup
+
+This repository includes a preconfigured development container that automatically sets up the workshop environment.
+
+### Terminal Notifications on Codespace Load
+
+When the codespace or dev container loads, a terminal opens indicating command `npx -y @azure/mcp@latest server start` is running.
+
+These notifications appear automatically due to the `postStartCommand` configuration in the devcontainer.json file.
+
+This is expected behaviour and indicates that the Azure MCP server is started and running and ready to use.
+
+You can open GitHub Copilot Chat and start interacting with Azure resources using natural language queries.
+
+### Devcontainer Configuration Details
+
+The container is configured via `.devcontainer/devcontainer.json` with:
+
+#### Base Image
+
+```json
+{
+  "name": "Azure MCP Copilot Workshop",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye"
+}
+```
+
+#### Features
+
+- **Azure CLI** (`ghcr.io/devcontainers/features/azure-cli:1`): Pre-installed for Azure resource management
+
+#### VS Code Extensions
+
+Automatically installed extensions:
+
+- `GitHub.copilot` - GitHub Copilot AI assistant
+- `GitHub.copilot-chat` - GitHub Copilot Chat interface
+
+#### MCP Server Configuration
+
+The Azure MCP server is pre-configured in VS Code settings:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "azure-mcp-server": {
+        "command": "npx",
+        "args": ["-y", "@azure/mcp@latest", "server", "start"]
+      }
+    }
+  }
+}
+```
+
+#### Post-Start Command
+
+Automatically runs on container startup:
+
+```bash
+npx -y @azure/mcp@latest server start
+```
+
+### What Happens When You Open the Codespace
+
+1. **Container loads** with Node.js 20 and Azure CLI pre-installed
+2. **Extensions install** automatically (GitHub Copilot & Copilot Chat)
+3. **MCP server starts** via the post-start command
+4. **Terminal shows** confirmation notifications
+5. **Ready to use** - Workshop environment is fully configured
+
 ## Getting Started
 
 1. Clone this repository
