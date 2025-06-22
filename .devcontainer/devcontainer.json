@@ -18,5 +18,6 @@
         }
       }
     }
-  }
+  },
+  "postStartCommand": "npx -y @azure/mcp@latest server start"
 }
