@@ -2,48 +2,22 @@
   "name": "Azure MCP Copilot Workshop",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
   "features": {
-    "ghcr.io/devcontainers/features/azure-cli:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
   },
   "customizations": {
     "vscode": {
-      "extensions": [
-        "ms-vscode.vscode-typescript-next",
-        "ms-vscode.vscode-json",
-        "ms-azuretools.vscode-azureresourcegroups",
-        "ms-vscode.azure-account",
-        "GitHub.copilot",
-        "GitHub.copilot-chat"
-      ],
+      "extensions": ["GitHub.copilot", "GitHub.copilot-chat"],
       "settings": {
-        "mcp.servers": {
-          "azure": {
-            "command": "npx",
-            "args": [
-              "-y",
-              "@azure/mcp@latest",
-              "server",
-              "start"
-            ]
+        "mcp": {
+          "servers": {
+            "azure-mcp-server": {
+              "command": "npx",
+              "args": ["-y", "@azure/mcp@latest", "server", "start"]
+            }
           }
         }
       }
     }
   },
-  "postCreateCommand": "npm install -g @azure/cli && az --version",
-  "remoteUser": "node",
-  "mounts": [
-    "source=${localEnv:HOME}/.azure,target=/home/node/.azure,type=bind,consistency=cached"
-  ],
-  "forwardPorts": [3000, 8080],
-  "portsAttributes": {
-    "3000": {
-      "label": "Application",
-      "onAutoForward": "notify"
-    },
-    "8080": {
-      "label": "MCP Server",
-      "onAutoForward": "silent"
-    }
-  }
+  "postStartCommand": "npx -y @azure/mcp@latest server start"
 }
